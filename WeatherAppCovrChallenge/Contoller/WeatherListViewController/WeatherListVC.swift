@@ -43,8 +43,7 @@ class WeatherListVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: WEATHER_LIST_CELL_IDENTIFIER) as! WeatherListCell
-        cell.configureCell(weatherListModel: paginationWeatherListModel[indexPath.row])
-        crateBorderLine(indexPathRow: indexPath.row, weatherListCell: cell)
+        cell.configureCell(weatherListModel: paginationWeatherListModel[indexPath.row], indexPathRow: indexPath.row)
         return cell
     }
     
