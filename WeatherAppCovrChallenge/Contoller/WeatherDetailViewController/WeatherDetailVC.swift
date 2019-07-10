@@ -23,8 +23,6 @@ class WeatherDetailVC: BaseVC {
     
     //Variables
     var cityId:Int = 0
-    var cityLat:Int = 0
-    var cityLon:Int = 0
     var cityName:String = ""
     var weatherDetailModel: WeatherDetailModel?
     var listViewDetailDelegate:ListViewDetailDelegate!
