@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-WeatherAppCovrChallenge/Pods-WeatherAppCovrChallenge-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Disk/Disk.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework

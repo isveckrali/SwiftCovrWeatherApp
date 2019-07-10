@@ -7,3 +7,26 @@
 //
 
 import Foundation
+
+class Database {
+    
+    init() {
+        //create context
+    }
+    
+    class func updateData() {
+    
+    }
+    
+    class func saveData() {
+        
+    }
+    
+    class func getData() {
+        
+    }
+    
+    class func deleteData() {
+        
+    }
+}

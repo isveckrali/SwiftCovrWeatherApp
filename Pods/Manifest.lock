@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Disk (0.6.3)
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - Disk
+  - SCLAlertView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Disk
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Disk: 76cccb6fed1c27cd661bbdea7b117d887c2f72e5
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: b3a3a29fceb42ff004151232b8e2b94ffb5206d5
+
+COCOAPODS: 1.7.3

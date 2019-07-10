@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol ListViewDetailDelegate {
+    func createAlert(message:String, title:String)
+}
