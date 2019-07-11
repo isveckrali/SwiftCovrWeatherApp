@@ -60,9 +60,12 @@ class WeatherListVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.weatherTableView.deselectRow(at: indexPath, animated: true)
-        self.cityId = weatherListModel[indexPath.row].id ?? 0
-        self.cityName = weatherListModel[indexPath.row].name ?? ""
-        performSegue(withIdentifier: TO_DETAIL_SEGUE_IDENTIFIER, sender: nil)
+        if let id = weatherListModel[indexPath.row].id {
+            self.cityId = id
+            self.cityName = weatherListModel[indexPath.row].name ?? ""
+            performSegue(withIdentifier: TO_DETAIL_SEGUE_IDENTIFIER, sender: nil)
+        } else {
+            createAlert(message: "City id is empty", title: "Warning")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
